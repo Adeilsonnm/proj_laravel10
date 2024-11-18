@@ -1,8 +1,8 @@
-version: "3.7"
+
 
 services:
     #muda o nome no .env, aqui na linha 4 e em docker laravel.conf
-    Proj_laravel10:
+    wzpicu:
         build:
             context: .
             dockerfile: Dockerfile
