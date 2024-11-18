@@ -1,7 +1,8 @@
 version: "3.7"
 
 services:
-    sistema_gestao:
+    #muda o nome no .env, aqui na linha 4 e em docker laravel.conf
+    Proj_laravel10:
         build:
             context: .
             dockerfile: Dockerfile
